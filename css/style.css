@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+  font-family: "ヒラギノ角ゴ";
+  line-height: 1.5;
+}
+
+/* header start */
+.top-bar {
+  font-size: 13px;
+}
+
+.top-bar a {
+  padding-top: 0;
+}
+
+/* header end */
+/* global-bar下に線　*/
+#global-bar {
+  border-bottom: solid 1px #ddd;
+}
+
+/* contain start */
+.container-original {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+
+/* footer start */
+/* footer end */
