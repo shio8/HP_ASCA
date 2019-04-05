@@ -58,35 +58,85 @@ body {
   text-align: center;
 }
 
-/* Sitemap_page start */
-.sitemap {
+/* contents_pages common*/
+.main-co {
   background-color: #e9ecef;
-  padding: 20px;
+  font-size: 12px;
+  padding: 0 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.breadcrumb {
-  background-color: transparent;
-  padding: 0 0 0 20px;
-}
-
-#sitemap {
+#section-co {
   background-color: #fff;
   color: #343434;
   font-size: 14px;
   line-height: 1.5;
 }
 
-#sitemap ul>li {
-  margin: 0;
-  padding: 0 0 5px 0;
-}
-
-#sitemap a {
-  line-height: 21px;
-  text-decoration: underline;
-}
-
-.common-style {
+.contents-co {
   margin-top: 10px;
   padding-inline-start: 20px;
+}
+
+
+/* sub_pages start */
+#page_img_box{
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+}
+.page_img {
+  background-image: url(/img/top/top-c.jpg);
+  max-width: 100%;
+}
+
+/* メイン最上位のタイトル部分 */
+.page_title{
+  margin-bottom: 15px;
+}
+.page_title h2{
+  border-left: solid 7px #0a00b6;
+  border-bottom: solid 5px #cce4ff;
+  position: relative;
+  padding:15px 0 10px 10px;
+  text-shadow: 5px 5px 1px #e9ecef;
+}
+
+.page_title h2:after{
+  position: absolute;
+  content: "";
+  display: block;
+  border-bottom: solid 5px #2979ff;
+  bottom: -5px;
+  width: 20%;
+}
+/* sub_pages end */
+
+
+/* activity_pages start */
+#activity .nav-tabs {
+  flex-direction: column;
+}
+
+.sidebar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+/* Sitemap_page start */
+
+/* About_asca start */
+#about_asca li {
+  display: inline-block;
+}
+#about_asca .list-group-item{
+
+}
+#about_asca li a{
+  display: block;
+  width: auto;
 }

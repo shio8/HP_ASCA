@@ -8,64 +8,90 @@
 
   <!-- Bootstrap Css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title></title>
 </head>
 
 <body>
-  <div class="container-fluid container-original">
+  <!--[ header ] -->
+  <header>
 
-    <!--[ header ] -->
-    <div id="header">
-    </div>
-    <!--[ global-bar ] -->
-    <div id="global-bar">
-    </div>
-    <!-- [/global-bar] -->
-    <!-- [/header] -->
-
-    <div class="conatiner-fluid">
-      <div class="row">
-        <div class="col-md-8">
-          aaaa
-        </div>
-        <div class="col-md-3">
-          bbbb
-        </div>
-
-      </div>
-    </div>
-
-    <aside class="col-md-3">
-      <div class="col">
-        <img src="/img/sp_fadm.jpg" width="200px" alt="">
-      </div>
-      <div class="col">
-        <img src="/img/sp_fadm.jpg" width="200px" alt="">
-      </div>
-      <div class="col">
-        <img src="/img/sp_fadm.jpg" width="200px" alt="">
-      </div>
-    </aside>
-    <div class="footer">
-    </div>
-
-    <div id="end-bar">
-    </div>
-
+  </header>
+  <!--[ global-bar ] -->
+  <div id="global-bar">
   </div>
+  <!-- [/global-bar] -->
+  <!-- [/header] -->
+  <!--[ global-bar ] -->
+  <div id="global-bar">
+  </div>
+  <!-- [/global-bar] -->
+  <!-- [/header] -->
+  <main class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb container">
+            <li class="breadcrumb-item">
+              <a href="/index.html">ホーム</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">XXXX</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col-3">
+        <div id="list-example">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-action" href="#list-item-1">リスト項目1</li>
+            <li class="list-group-item list-group-item-action" href="#list-item-2">リスト項目2</li>
+            <li class="list-group-item list-group-item-action" href="#list-item-3">リスト項目3</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+
+      </div>
+      <div class="col-8">
+        <div class="page_title">
+          <h2>協会概要</h2>
+        </div>
+        <div data-spy="scroll" dat-target="#list-example" data-offset="0" class="scrollspy-example border px-1">
+          <h4 id="list-item-1">コンテンツ01</h4>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          <h4 id="list-item-2">コンテンツ02</h4>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          <h4 id="list-item-3">コンテンツ03</h4>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          <h4 id="list-item-1">コンテンツ04</h4>
+        </div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </div>
+    </div>
+  </main>
+
+
+  <!-- [/main] -->
+
+  <footer></footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
-  <script src="../../js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
 
   <script type="text/javascript">
     $(function() {
-      $("#header").load("../../html/partial/header.html");
-      $("#end-bar").load("../../html/partial/end-bar.html");
-      $("#global-bar").load("../../html/partial/global-bar.html");
+      $("header").load("/html/partial/header.html");
+      $("footer").load("/html/partial/footer.html");
+      $("#global-bar").load("/html/partial/global-bar.html");
     })
   </script>
 </body>
