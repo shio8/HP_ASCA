@@ -5,8 +5,22 @@ body {
   line-height: 1.5;
 }
 
+.text-center {
+  text-align: center;
+}
+
+/* ボタンメインカラー */
+.btn-mcolor {
+  color: #fff;
+  background-color: #2979ff;
+  border-color: #2979ff;
+}
+
 /* partial_parts start */
 /* header start */
+header navbar {
+  padding: 0;
+}
 .top-bar {
   font-size: 13px;
 }
@@ -22,6 +36,10 @@ body {
 }
 
 /* footer start */
+.footer-copyright {
+  color: #ccc
+}
+
 /* footer end */
 /* partial_parts end */
 /* main_page_contain start */
@@ -79,31 +97,32 @@ body {
   padding-inline-start: 20px;
 }
 
-
 /* sub_pages start */
-#page_img_box{
+#page_img_box {
   background-position: center;
   background-repeat: no-repeat;
   height: 120px;
 }
+
 .page_img {
   background-image: url(/img/top/top-c.jpg);
   max-width: 100%;
 }
 
 /* メイン最上位のタイトル部分 */
-.page_title{
+.page_title {
   margin-bottom: 15px;
 }
-.page_title h2{
+
+.page_title h2 {
   border-left: solid 7px #0a00b6;
   border-bottom: solid 5px #cce4ff;
   position: relative;
-  padding:15px 0 10px 10px;
+  padding: 15px 0 10px 10px;
   text-shadow: 5px 5px 1px #e9ecef;
 }
 
-.page_title h2:after{
+.page_title h2:after {
   position: absolute;
   content: "";
   display: block;
@@ -111,15 +130,14 @@ body {
   bottom: -5px;
   width: 20%;
 }
+
 /* sub_pages end */
-
-
 /* activity_pages start */
 #activity .nav-tabs {
   flex-direction: column;
 }
 
-.sidebar{
+.sidebar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,16 +145,16 @@ body {
   position: sticky;
   top: 50px;
 }
-/* Sitemap_page start */
 
+/* Sitemap_page start */
 /* About_asca start */
 #about_asca li {
   display: inline-block;
 }
-#about_asca .list-group-item{
 
-}
-#about_asca li a{
+#about_asca .list-group-item {}
+
+#about_asca li a {
   display: block;
   width: auto;
 }
