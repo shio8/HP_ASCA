@@ -143,18 +143,8 @@ header navbar {
   justify-content: center;
   position: -webkit-sticky;
   position: sticky;
-  top: 50px;
+  top: 30px;
 }
 
 /* Sitemap_page start */
 /* About_asca start */
-#about_asca li {
-  display: inline-block;
-}
-
-#about_asca .list-group-item {}
-
-#about_asca li a {
-  display: block;
-  width: auto;
-}
