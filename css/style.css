@@ -1,16 +1,36 @@
 @charset "UTF-8";
 
 body {
-  font-family: "ヒラギノ角ゴ";
-  line-height: 1.5;
+  font-family: "Roboto-Light,-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN',YuGothic,'Yu Gothic','遊ゴシック体','遊ゴシック',Meiryo,sans-serif";
+  font-kerning: auto;
+  font-size: 100%;
+  font-variant-ligatures: none;
+  letter-spacing: .25px;
+  line-height: 1.75;
+  overflow-wrap: break-word;
+  padding: 0;
 }
 
 a {
   color: inherit;
 }
 
+p {
+  margin: 1.5em 0;
+  text-align: justify;
+}
+
+
 .text-center {
   text-align: center;
+}
+
+/* 左側に1線のデザイン */
+.l-title-color {
+  padding: 0.25em 0.5em;
+  color: #494949;
+  background: transparent;
+  border-left: solid 5px #7db4e6;
 }
 
 /* ボタンメインカラー */
@@ -18,6 +38,13 @@ a {
   color: #fff;
   background-color: #2979ff;
   border-color: #2979ff;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 93.75%;
+    word-break: break-all;
+  }
 }
 
 /* partial_parts start */
@@ -135,14 +162,6 @@ header navbar {
   width: 20%;
 }
 
-/* 左側に1線のデザイン */
-.l-title-color {
-  padding: 0.25em 0.5em;
-  color: #494949;
-  background: transparent;
-  border-left: solid 5px #7db4e6;
-}
-
 /* sub_pages end */
 /* event_list start */
 .item {
@@ -189,6 +208,7 @@ header navbar {
 
 /* Sitemap_page start */
 /* About_asca start */
+/* About_asca end */
 /* Eventページ　関連 start */
 /* sidebar-event start */
 #sidebar-event .card h5 {
