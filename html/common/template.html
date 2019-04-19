@@ -8,6 +8,7 @@
 
   <!-- Bootstrap Css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
   <link rel="stylesheet" href="/css/style.css">
   <title></title>
 </head>
@@ -29,53 +30,87 @@
   <!-- [/header] -->
   <main class="container">
     <div class="row">
+      <!-- <div class="col-12">
+        <div id="page_img_box"class="page_img">
+           <img src="/img/top/top-c.jpg" class="img-fluid" alt="">
+        </div>
+      </div> -->
       <div class="col-12">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb container">
+        <nav aria-label="パンくずリスト">
+          <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a href="/index.html">ホーム</a>
             </li>
-            <li class="breadcrumb-item active" aria-current="page">XXXX</li>
+            <li class="breadcrumb-item active" aria-current="page">イベント情報</li>
           </ol>
         </nav>
       </div>
       <div class="col-3">
-        <div id="list-example">
-          <ul class="list-group">
-            <li class="list-group-item list-group-item-action" href="#list-item-1">リスト項目1</li>
-            <li class="list-group-item list-group-item-action" href="#list-item-2">リスト項目2</li>
-            <li class="list-group-item list-group-item-action" href="#list-item-3">リスト項目3</li>
-          </ul>
+        <div class="list-group sidebar">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">イベント情報</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">イベント一覧</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-3">最新イベント</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-4">過去イベント</a>
         </div>
       </div>
       <div class="col">
 
       </div>
       <div class="col-8">
-        <div class="page_title">
-          <h2>協会概要</h2>
+        <div class="row">
+          <div class="col-12 page_title">
+            <h2>イベント情報</h2>
+            <p><small class="text-muted">全日本学生料理協会が行うイベントについて一覧から詳細までまとめたページです。過去に行われたイベントもこちらから確認できます。</small></p>
+          </div>
+          <div class="col-12 blog-main">
+            <div class="blog-card">
+              <div class="meta border-right">
+                <div class="meta-img">
+
+                </div>
+              </div>
+              <div class="description">
+                <h1>食のサーカス団</h1>
+                <h2>第一回：2018.07.31 ~ 2018.08.30</h2>
+                <p>全国を回りながらご当地の食材を使用し食のイベントを開催する企画です。第一回は東北を中心に活動しました。内容としては先ずはじめに…</p>
+                <p class="read-more">
+                  <a href="#">Read More</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 blog-main">
+            <div class="blog-card">
+              <div class="meta border-right">
+                <div class="meta-img">
+
+                </div>
+              </div>
+              <div class="description">
+                <h1>Learning to Code</h1>
+                <h2>Opening a door to the future</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="read-more">
+                  <a href="#">Read More</a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div data-spy="scroll" dat-target="#list-example" data-offset="0" class="scrollspy-example border px-1">
-          <h4 id="list-item-1">コンテンツ01</h4>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          <h4 id="list-item-2">コンテンツ02</h4>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          <h4 id="list-item-3">コンテンツ03</h4>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          <h4 id="list-item-1">コンテンツ04</h4>
-        </div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
-        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
       </div>
     </div>
   </main>
 
+  <!-- <div class="demo">
+        <figure class="imghvr-reveal-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/example-image.jpg" alt="example-image">
+          <figcaption>
+            <h3>Hello World</h3>
+            <p>Life is too important to be taken seriously!</p>
+          </figcaption>
+          <a href="javascript:;"></a>
+        </figure>
+        <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-reveal-right</textarea>
+      </div> -->
 
   <!-- [/main] -->
 
