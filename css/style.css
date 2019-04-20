@@ -31,7 +31,9 @@ p {
   background: transparent;
   border-left: solid 5px #7db4e6;
 }
-
+.b-line {
+  border-bottom: solid 3px #7db4e6;
+}
 /* ボタンメインカラー */
 .btn-mcolor {
   color: #fff;
