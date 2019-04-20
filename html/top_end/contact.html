@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title></title>
+</head>
+
+<body>
+  <!--[ header ] -->
+  <header>
+
+  </header>
+  <!--[ global-bar ] -->
+  <div id="global-bar">
+  </div>
+  <!-- [/global-bar] -->
+  <!-- [/header] -->
+  <main class="container">
+    <div class="row justify-content-between">
+      <!-- <div class="col-12">
+        <div id="page_img_box"class="page_img">
+           <img src="/img/top/top-c.jpg" class="img-fluid" alt="">
+        </div>
+      </div> -->
+      <div class="col-12">
+        <nav aria-label="パンくずリスト">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/index.html">ホーム</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">お問い合わせ</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col-lg-12 col-md">
+        <div class="page_title">
+          <h2>お問い合わせ</h2>
+        </div>
+        <div class="p-1 my-3">
+          <div class="row">
+            <div class="col-md-4 text-center pt-3">
+              <img src="/img/contact/logo.png" alt="">
+            </div>
+            <div class="col-md-8">
+              <h4 class="l-title-color">入会について</h4>
+
+              <h5 class="mt-3"><span><span class="b-line">メンバー募集中</span></span></h5>
+              <p class="pl-3">
+                ASCAに参加を希望された理由を、
+                期待することやしたいことなどもふまえながら、
+                簡潔に教えてください。
+                ASCAであなたのやりたいことをどう実現しますか
+
+                以下のメールに張り付けて送ってください。
+              </p>
+              <p class="pl-3">
+                food@ascachan.com
+              </p>
+              <p class="pl-3">
+                <a href="../asca_es2.zip"><span style="font-size: 20px; color: blue;">ASCAエントリーシート</span></a>
+              </p>
+              <h5><span class="b-line">
+                  会費</span></h5>
+              <p class="pl-3 mb-0">
+                <span class="b-light-line">学生</span>
+              </p>
+              <ul>
+                <li>前期会費(3/10-9/10)3000円を3月10日徴収</li>
+                <li>後期会費(9/10-3/10)3000円を9月10日徴収</li>
+              </ul>
+              <p class="pl-3 mb-0">
+                <span class="b-light-line">社会人</span>
+              </p>
+              <ul>
+                <li>前期会費(3/10-9/10)5000円を3月10日徴収</li>
+                <li>後期会費(9/10-3/10)5000円を9月10日徴収</li>
+              </ul>
+              <p class="pl-3 mb-0">
+                <span class="b-light-line">企業 （団体スポンサー）</span>
+              </p>
+              <ul>
+                <li>お問い合わせフォームよりお問い合わせください</li>
+              </ul>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- <div class="col-lg-4 d-none d-lg-block">
+      </div> -->
+
+    </div>
+  </main>
+
+  <!-- [/main] -->
+
+  <footer></footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("header").load("/html/partial/header.html");
+      $("footer").load("/html/partial/footer.html");
+      $("#global-bar").load("/html/partial/global-bar.html");
+    })
+    $('.toggle-btn').click(function() {
+      $('.collpse').collpse();
+    })
+  </script>
+</body>
+
+
+</html>

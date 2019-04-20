@@ -31,8 +31,13 @@ p {
   background: transparent;
   border-left: solid 5px #7db4e6;
 }
+/* 下線カラーボーダー　*/
 .b-line {
-  border-bottom: solid 3px #7db4e6;
+  border-bottom: solid 3px #2979ff;
+}
+/* 下線蛍光カラー　*/
+.b-light-line {
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
 }
 /* ボタンメインカラー */
 .btn-mcolor {
@@ -532,3 +537,11 @@ header navbar {
     font-size: 1.2em;
   }
 }
+
+/* contact start */
+
+/* contact end */
+
+/* contact start */
+
+/* contact end */
