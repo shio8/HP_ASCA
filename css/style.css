@@ -420,7 +420,22 @@ header navbar {
 .back-page p:first-of-type {
   margin-top: 1.25rem;
 }
-
+/* event form */
+.form_responsive {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 120%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form_responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 /* event_page end */
 /* news start */
 
