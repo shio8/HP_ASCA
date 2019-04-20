@@ -115,28 +115,11 @@ header navbar {
 }
 
 /* contents_pages common*/
-.main-co {
-  background-color: #e9ecef;
-  font-size: 12px;
-  padding: 0 20px 20px 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-#section-co {
-  background-color: #fff;
-  color: #343434;
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.contents-co {
-  margin-top: 10px;
-  padding-inline-start: 20px;
-}
 
 /* sub_pages start */
-#page_img_box {
+/* パンくずとグロナビの間に画像を置く案　未実装*/
+/* #page_img_box {
   background-position: center;
   background-repeat: no-repeat;
   height: 120px;
@@ -144,7 +127,7 @@ header navbar {
 
 .page_img {
   max-width: 100%;
-}
+} */
 
 /* メイン最上位のタイトル部分 */
 .page_title {
