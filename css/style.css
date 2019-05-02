@@ -213,14 +213,6 @@ header navbar {
   /*下線*/
 }
 
-#sidebar-event img {
-  filter: blur(2px);
-}
-
-#sidebar-event:hover img {
-  filter: blur(0px);
-}
-
 #sidebar-event .card-body {
   position: relative;
 }
