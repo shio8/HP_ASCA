@@ -432,8 +432,15 @@ header navbar {
 /* news start */
 
 .ncard-img_01 {
-  background: url(../img/top/top-c.jpg) 50%/cover no-repeat;
+  background: url(../img/event/child_kitchen/demo/thumb.jpg) 50%/cover no-repeat;
 }
+.ncard-img_02 {
+  background: url(../img/event/circus/img04.jpg) 50%/cover no-repeat;
+}
+.ncard-img_03 {
+  background: url(../img/top/top-b.jpg) 50%/cover no-repeat;
+}
+
 .ncard {
   position: relative;
   overflow: hidden;
