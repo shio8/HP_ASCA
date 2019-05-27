@@ -23,6 +23,9 @@ p {
 .text-center {
   text-align: center;
 }
+footer p{
+  text-align: center;
+}
 
 /* 左側に1線のデザイン */
 .l-title-color {
@@ -226,7 +229,11 @@ header navbar {
   color: #fff;
   opacity: 1;
 }
-
+.event-next {
+  display: block;
+  background-color: #2ecc71;
+  margin-top: 0;
+}
 .details {
   overflow: hidden;
 }
@@ -361,7 +368,12 @@ header navbar {
 .blog-card .event_end {
   color: red;
 }
-
+.event-info {
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.2em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+}
 @media (min-width: 992px) {
   .blog-card {
     flex-direction: row;
@@ -380,18 +392,18 @@ header navbar {
 
 /* event_list end */
 /* event_page start */
-.back-page {
-  text-align: left;
+.page-move {
   margin: 0.75em 0 0;
 }
 
-.back-page a {
+.back-page {
+  float: left;
   color: #2979ff;
   display: inline-block;
   position: relative;
 }
 
-.back-page a:before {
+.back-page:before {
   font-family: "Font Awesome 5 Free";
   content: "\f359";
   margin-right: -10px;
@@ -400,18 +412,39 @@ header navbar {
   transition: margin .3s, opacity .3s;
 }
 
-.back-page a:hover:before {
+.back-page:hover:before {
   opacity: 1;
   margin-right: 5px;
 }
+.next-page {
+  float: right;
+  color: #2979ff;
+  display: inline-block;
+  position: relative;
+}
 
-.back-page p {
+.next-page:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f35a";
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+  transition: margin .3s, opacity .3s;
+}
+
+.next-page:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+
+.page-move p {
   margin: 1rem 0 0;
 }
 
-.back-page p:first-of-type {
+.page-move p:first-of-type {
   margin-top: 1.25rem;
 }
+
 /* event form */
 .form_responsive {
   position: relative;
