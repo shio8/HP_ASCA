@@ -23,9 +23,7 @@ p {
 .text-center {
   text-align: center;
 }
-footer p{
-  text-align: center;
-}
+
 
 /* 左側に1線のデザイン */
 .l-title-color {
@@ -203,7 +201,7 @@ header navbar {
 /* About_asca end */
 /* Eventページ　関連 start */
 /* sidebar-event start */
-#sidebar-event .card h5 {
+#sidebar-event .card-header {
   padding: 0.4em 0.5em;
   /*文字の上下 左右の余白*/
   color: #494949;
@@ -214,6 +212,17 @@ header navbar {
   /*左線*/
   border-bottom: solid 3px #d7d7d7;
   /*下線*/
+}
+#sidebar-event .card-footer {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 0.4em 0.5em;
+  margin-bottom: 0;
+}
+#sidebar-event .card-footer a{
+  margin: 0 auto;
+  padding: 0;
+  display: block;
 }
 
 #sidebar-event .card-body {
@@ -392,6 +401,9 @@ header navbar {
 
 /* event_list end */
 /* event_page start */
+.event_info_img {
+  max-width: 100%;
+}
 .page-move {
   margin: 0.75em 0 0;
 }
@@ -461,6 +473,8 @@ header navbar {
   height: 100%;
   width: 100%;
 }
+
+/* event form end */
 /* event_page end */
 /* news start */
 
@@ -559,6 +573,11 @@ header navbar {
   opacity: 1;
 }
 
+@media screen and (max-width: 767px) {
+  footer p{
+    text-align: center;
+  }
+}
 @media screen and (max-width: 480px) {
   .ncard .date {
     font-size: 0.5em;
@@ -566,6 +585,8 @@ header navbar {
   .ncard .description h1 {
     font-size: 1.2em;
   }
+
+
 }
 
 /* contact start */
