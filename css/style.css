@@ -458,6 +458,10 @@ header navbar {
   margin-top: 1.25rem;
 }
 
+.table td{
+  vertical-align: middle;
+}
+
 /* event form */
 .form_responsive {
   position: relative;
