@@ -115,6 +115,14 @@ header navbar {
   text-align: center;
 }
 
+/* javascript setting 0820 start */
+.fadeInUp {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 2s;
+}
+
+/* javascript setting 0820 end */
 /* contents_pages common*/
 
 
